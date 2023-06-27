@@ -1,4 +1,3 @@
-#Used Python file given by Professor in Carmen
 import sys
 
 class Tokenizer:
@@ -250,23 +249,4 @@ class Tokenizer:
         else:
             return self.string[self.pointer]                        
                   
-# def main():
-#     fl = Tokenizer(sys.argv[1])
-#     currentToken = fl.getToken()
-#     finished = False
-
-#     while not finished:
-#         if currentToken == 34:
-#             print("\nError: Invalid token!\nString:", fl.string[fl.pointer])
-#             quit()
-#         elif currentToken == 33:
-#             finished = True
-#         print(currentToken, end = ' ')
-#         fl.skipToken()
-#         currentToken = fl.getToken()
-        
-
-# if __name__ == "__main__":
-#     main()
-
 __all__ = ["Tokenizer"]
